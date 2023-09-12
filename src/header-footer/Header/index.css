@@ -1,0 +1,37 @@
+header {
+  background-image: linear-gradient(
+    to right top,
+    #051937,
+    #2c3a5c,
+    #525f83,
+    #7986ad,
+    #a2b0d8
+  );
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.25rem;
+}
+
+span {
+  font-weight: bold;
+  font-size: 20px;
+  color: steelblue;
+}
+
+nav li {
+  display: inline;
+  margin: 0.25rem;
+}
+
+nav li a {
+  text-decoration: none;
+  color: #a2b0d8;
+}
+
+nav li a:hover {
+  color: white;
+}

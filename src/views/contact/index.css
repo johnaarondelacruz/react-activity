@@ -1,0 +1,25 @@
+p {
+  text-align: center;
+}
+
+.contact-container form {
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  width: 250px;
+  border-radius: 4 px solid;
+  gap: 0.5rem;
+}
+
+.contact-container form button {
+  color: #a2b0d8;
+  background-color: #525f83;
+  font-weight: bold;
+  height: 2rem;
+  cursor: pointer;
+}
+
+.contact-container form button:hover {
+  color: #525f83;
+  background-color: #a2b0d8;
+}

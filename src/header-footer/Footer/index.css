@@ -1,0 +1,42 @@
+html {
+  padding: 0;
+  margin: 0;
+}
+
+footer {
+  background-image: linear-gradient(
+    to right top,
+    #051937,
+    #2c3a5c,
+    #525f83,
+    #7986ad,
+    #a2b0d8
+  );
+}
+
+.footerContainer p {
+  text-align: center;
+  color: white;
+}
+
+.footerContainer h3 {
+  color: white;
+}
+
+.footerContainer a {
+  text-decoration: none;
+  color: #a2b0d8;
+}
+
+.footerContainer a:hover {
+  color: white;
+}
+
+.footerContainer li {
+  display: flex;
+  justify-content: space-between;
+}
+.footerContainer ul {
+  margin: 0;
+  justify-content: space-between;
+}
